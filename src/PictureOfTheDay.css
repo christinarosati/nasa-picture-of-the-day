@@ -1,0 +1,50 @@
+.PictureOfTheDay {
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.PictureOfTheDay button {
+  background: #212529;
+  color: #fff;
+  border: 1px solid #212529;
+  border-radius: 10px;
+  box-shadow: rgb(9 0 137 / 8%) 0px 8px 8px 0;
+  padding: 10px;
+  transition: all 200ms ease-in-out;
+  cursor: pointer;
+}
+
+.PictureOfTheDay button:hover {
+  background: #fff;
+  color: #212529;
+}
+
+.PictureOfTheDay .date {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.PictureOfTheDay .title {
+  font-size: 25px;
+  font-style: italic;
+  opacity: 0.8;
+}
+
+.PictureOfTheDay img {
+  max-width: 600px;
+  border-radius: 5px;
+}
+
+.PictureOfTheDay .copyright {
+  padding-top: 10px;
+  opacity: 0.7;
+}
+
+.PictureOfTheDay .explanation {
+  margin-right: 50px;
+  margin-left: 50px;
+  line-height: 1.5;
+  border: 1px solid #212529;
+  border-radius: 10px;
+  padding: 10px 0 10px 0;
+}

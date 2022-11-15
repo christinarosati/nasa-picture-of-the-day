@@ -1,3 +1,11 @@
-.App-header h1 {
+.App header {
   text-align: center;
+  border: 1px solid #212529;
+  border-radius: 10px;
+  padding: 10px 0 10px 0;
+  margin: 30px 0 30px 0;
+}
+
+.App h1 {
+  font-size: 35px;
 }
