@@ -1,6 +1,7 @@
 import "./App.css";
+import PictureOfTheDay from "./PictureOfTheDay";
 
-function App() {
+export default function App() {
   return (
     <div className="App">
       <header className="App-header">
@@ -11,10 +12,10 @@ function App() {
           written by a professional astronomer.
         </p>
       </header>
-      <main></main>
+      <main>
+        <PictureOfTheDay />
+      </main>
       <footer>Coded by Christina Rosati</footer>
     </div>
   );
 }
-
-export default App;
