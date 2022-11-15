@@ -28,7 +28,8 @@ export default function PictureOfTheDay() {
           Image Credit & Copyright: {results.copyright}
         </p>
         <p className="explanation">{results.explanation}</p>
-        <small>Open-sourced code by Christina Rosati</small>
+        <hr />
+        <p className="message">Come back tomorrow for a new picture!</p>
       </div>
     );
   } else {
